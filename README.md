@@ -1,10 +1,10 @@
-# Who He Play For?
+# Green Bean
 
-A daily NBA guessing game. Every day there are three moments from NBA history: one Easy, one Medium, and one Hard. Everyone in the scene is blacked out except one player in green. Your job is to name him.
+**Name the player in green.** A daily NBA guessing game. Every day there are three moments from NBA history: one Easy, one Medium, and one Hard. Everyone in the scene is blacked out except one player in green. Your job is to name him.
 
 ### ▶ [Play it here](https://who-he-play-for.naveenpradeepnair.workers.dev)
 
-<img src="assets/start-screen.png" alt="Who He Play For? start screen" width="480">
+<img src="assets/start-screen.png" alt="Green Bean start screen" width="480">
 
 ## How to play
 
