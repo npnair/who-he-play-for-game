@@ -2,7 +2,7 @@
 
 **Name the player in green.** A daily NBA guessing game. Every day there are three moments from NBA history: one Easy, one Medium, and one Hard. Everyone in the scene is blacked out except one player in green. Your job is to name him.
 
-### ▶ [Play it here](https://who-he-play-for.naveenpradeepnair.workers.dev)
+### ▶ [Play it here](https://playgreenbean.com)
 
 <img src="assets/start-screen.png" alt="Green Bean start screen" width="480">
 
