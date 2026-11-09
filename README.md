@@ -1,6 +1,6 @@
 # Who He Play For?
 
-A daily NBA guessing game. Every day there's one famous (or not so famous) moment from NBA history. Everyone in the scene is blacked out except one player in green. Your job is to name him.
+A daily NBA guessing game. Every day there are three moments from NBA history: one Easy, one Medium, and one Hard. Everyone in the scene is blacked out except one player in green. Your job is to name him.
 
 ### ▶ [Play it here](https://who-he-play-for.naveenpradeepnair.workers.dev)
 
@@ -8,22 +8,19 @@ A daily NBA guessing game. Every day there's one famous (or not so famous) momen
 
 ## How to play
 
-- One new moment unlocks each day. Missed a day? Past days stay open.
+- Pick a level and play. You can play all three, in any order. Missed a day? Past days stay open.
 - Start typing a name or nickname and pick the player from the suggestions. You get **3 guesses**.
 - Stuck? There are **4 hints**: the arena, the season, the game, and a teammate. Each one costs 15 points.
-- The clock counts up. After 10 seconds you lose 1 point per second, and if you get it in under 10 seconds you get a +20 bonus. Max score is 120.
+- The clock counts up. After 10 seconds you lose 1 point per second, and if you get it in under 10 seconds you get a +20 bonus. Each level is worth up to 120, so a full day is out of 360.
 - When you're done, copy your result and send it to your friends (no spoilers).
 
-## Difficulty
+## Levels
 
-The difficulty goes up through the week:
-
-| Day | Difficulty | What that means |
-|---|---|---|
-| Mon, Tue | Easy | A star player in a moment every fan knows |
-| Wed, Thu | Medium | A famous moment, but the player isn't a superstar |
-| Fri, Sat | Hard | A star player in a moment most fans forget |
-| Sun | Impossible | A coach or deep bench player in a moment almost nobody remembers |
+| Level | What that means |
+|---|---|
+| 🟢 Easy | A star player in a moment every fan knows |
+| 🟡 Medium | A famous moment, but the player isn't a superstar |
+| 🔴 Hard | A star in a moment most fans forget, or a coach or role player almost nobody remembers |
 
 ## Built with
 
