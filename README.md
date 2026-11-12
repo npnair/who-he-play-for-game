@@ -22,9 +22,20 @@
 | 🟡 Medium | A famous moment, but the player isn't a superstar |
 | 🔴 Hard | A star in a moment most fans forget, or a coach or role player almost nobody remembers |
 
+## How the puzzles are made
+
+Each puzzle comes from a small Python pipeline:
+
+1. **Pick a moment and a photo.** This part is still done by hand, because choosing moments fans will recognize is the fun part.
+2. **`silhouette.py`** finds every person in the photo with a pretrained person-segmentation model, then uses **SAM** (Meta's Segment Anything) to cut out the exact player I click on. OpenCV turns everyone else into black outlines and the target into the green silhouette. About 20 seconds per photo.
+3. **`add_puzzle.py`** takes the scene, the answer and the hints, puts the puzzle on the next open day for its level, adds the player to the name search, and pushes it. Cloudflare puts it live about a minute later.
+
+Next up: a data-driven "moment finder" that ranks famous NBA moments using play-by-play data and fame signals, to suggest new puzzles.
+
 ## Built with
 
 - HTML, CSS, and JavaScript, with no frameworks
+- Python, OpenCV, and pretrained segmentation models (u2net, SAM) for the puzzle pipeline
 - Hosted on Cloudflare Workers
 - Name search that handles misspellings and nicknames ("antetokumpo," "Greek Freak," and "MJ" all work)
 
